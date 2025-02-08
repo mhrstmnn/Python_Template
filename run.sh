@@ -1,4 +1,4 @@
 #!/bin/zsh
 
 source ./venv/bin/activate
-./main.py "$@"
+python3 ./src/main.py "$@"
