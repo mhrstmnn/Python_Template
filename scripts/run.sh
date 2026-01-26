@@ -1,3 +1,3 @@
 #!/bin/bash
 
-uv run ./src/main.py "$@"
+uv run --no-dev ./src/main.py "$@"
