@@ -5,7 +5,7 @@ jobs:
   lint:
     runs-on: ubuntu-latest
     strategy:
-      matrix:
+      matrix: &version_matrix
         python-version: ["3.12", "3.13", "3.14"]
 
     steps:
@@ -24,8 +24,7 @@ jobs:
   test:
     runs-on: ubuntu-latest
     strategy:
-      matrix:
-        python-version: ["3.12", "3.13", "3.14"]
+      matrix: *version_matrix
 
     steps:
       - name: Check out repository
