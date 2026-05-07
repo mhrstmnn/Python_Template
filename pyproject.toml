@@ -3,7 +3,7 @@ name = "python-template"
 version = "0.0.1"
 description = "Template for new Python projects"
 readme = "README.md"
-requires-python = ">=3.14"
+requires-python = ">=3.12"
 dependencies = []
 
 [dependency-groups]
