@@ -17,7 +17,7 @@ repos:
         name: check shell scripts
 
   - repo: https://github.com/astral-sh/ruff-pre-commit
-    rev: v0.14.11
+    rev: v0.15.13
     hooks:
       - id: ruff-check
         name: lint with ruff
@@ -36,7 +36,7 @@ repos:
         require_serial: true
 
   - repo: https://github.com/pre-commit/mirrors-mypy
-    rev: v1.19.1
+    rev: v2.1.0
     hooks:
       - id: mypy
         name: type check with mypy
