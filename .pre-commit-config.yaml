@@ -43,3 +43,9 @@ repos:
         entry: uv run mypy
         args: [--strict]
         language: unsupported
+
+  - repo: https://github.com/pysentry/pysentry-pre-commit
+    rev: v0.4.5
+    hooks:
+      - id: pysentry
+        name: audit dependencies
